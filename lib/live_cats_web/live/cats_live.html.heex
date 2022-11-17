@@ -1,0 +1,9 @@
+<h1>Cats</h1>
+
+<ul>
+  <%= for cat <- @cats do %>
+    <li>
+      <img src={cat["url"]} >
+    </li>
+  <% end %>
+</ul>
